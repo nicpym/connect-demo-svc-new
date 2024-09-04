@@ -1,0 +1,7 @@
+site_name: 'connect-demo-svc-new-docs'
+site_description: Connect Service
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core

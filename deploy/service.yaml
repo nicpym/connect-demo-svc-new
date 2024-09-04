@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: connect-demo-svc-new
+spec:
+  selector:
+    app: connect-demo-svc-new
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: ClusterIP
