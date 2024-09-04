@@ -9,6 +9,6 @@ commonLabels:
   app: connect-demo-svc-new
   backstage.io/kubernetes-id: connect-demo-svc-new
 images:
-- name: to-be-replaced
-  newName: ealen/echo-server
-  newTag: latest
+  - name: to-be-replaced
+    newName: ghcr.io/nicpym/connect-demo-svc-new
+    newTag: v0.0.1
